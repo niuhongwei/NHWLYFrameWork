@@ -23,7 +23,7 @@ s.requires_arc = true
 # s.ios.exclude_files = 'Classes/osx'
 # s.osx.exclude_files = 'Classes/ios'
 # s.public_header_files = 'Classes/**/*.h'
-s.vendored_frameworks = 'Framework.framework'
+s.vendored_frameworks = 'LEDMSSDK.framework'
 s.frameworks = 'Foundation'
 
 end
