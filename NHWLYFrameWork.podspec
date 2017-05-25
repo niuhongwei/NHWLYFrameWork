@@ -17,7 +17,7 @@ s.platform     = :ios
 # s.osx.deployment_target = '10.7'
 s.requires_arc = true
 
-#s.source_files = 'NHWLYFrameWork/*'
+#s.source_files = 'NHWLYFrameWork/Classes/**/*'
 # s.resources = 'Assets'
 
 # s.ios.exclude_files = 'Classes/osx'
