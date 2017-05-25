@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "NHWLYFrameWork"
-s.version          = "1.0.0"
+s.version          = "1.1.3"
 s.summary          = "A marquee view used on iOS."
 s.description      = <<-DESC
 It is a marquee view used on iOS, which implement by Objective-C.
@@ -17,12 +17,13 @@ s.platform     = :ios
 # s.osx.deployment_target = '10.7'
 s.requires_arc = true
 
-#s.source_files = 'NHWFrameWork/*'
+#s.source_files = 'NHWLYFrameWork/*'
 # s.resources = 'Assets'
 
 # s.ios.exclude_files = 'Classes/osx'
 # s.osx.exclude_files = 'Classes/ios'
 # s.public_header_files = 'Classes/**/*.h'
+s.preserve_paths = 'LEDMSSDK.framework'
 s.vendored_frameworks = 'LEDMSSDK.framework'
 s.frameworks = 'Foundation'
 
