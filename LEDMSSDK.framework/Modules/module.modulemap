@@ -1,0 +1,6 @@
+framework module LEDMSSDK {
+  umbrella header "LEDMSSDK.h"
+
+  export *
+  module * { export * }
+}

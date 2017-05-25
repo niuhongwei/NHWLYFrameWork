@@ -1,0 +1,31 @@
+//
+//  LDMPrefix.pch
+//  DeviceManagement
+//
+//  Created by 王为 on 03/12/2016.
+//  Copyright © 2016 weiqi. All rights reserved.
+//
+
+#ifndef LDMPrefix_pch
+#define LDMPrefix_pch
+
+#import "LDMDefines.h"
+#import "LDMUICommonFunctions.h"
+#import "LDMCommonFunctions.h"
+#import "LDMAlertView.h"
+
+#define MaxScreenWidth ([UIApplication sharedApplication].keyWindow.bounds.size.width)
+#define MaxScreenHeight ([UIApplication sharedApplication].keyWindow.bounds.size.height)
+#define NavigationOffset (20+44)
+#define kPhoneCapatchaMaxCharacter 6
+#define kImageCapatchaMaxCharacter 4
+
+#define kWeak(self)                 __weak typeof(self) weakSelf = self;
+#define kStrong(weakself)           __strong typeof(weakself) strongSelf = weakself;
+
+#import "UIColor+ColorWithHexString.h"
+#import "NSDate+CurrentTimeInterval.h"
+#import "UIViewController+TopViewController.h"
+#import "NSDictionary+HTTPRequestSerialization.h"
+
+#endif /* LDMPrefix_pch */
